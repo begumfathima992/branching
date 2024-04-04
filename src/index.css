@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mantine-1682jzp {
+  padding: 0 !important;
+}
+
+.mantine-1lfzd41 {
+  margin: 0 !important;
+}
+.mantine-1h0gzmk {
+  margin: 0 !important;
+}
+
+.mantine-1yy5jtt {
+  padding-top: 0rem;
+  text-align: right;
+}
+.mantine-pqoqxb{
+  padding-top: 0rem;
+
+}
+
+
+/* .mantine-14xws4s{
+  padding-top: 0px;
+} */
