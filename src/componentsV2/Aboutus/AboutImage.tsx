@@ -25,7 +25,7 @@ export const AboutImage = () => {
             order: 1,
           },
         })}
-        src={"/images/homepageFrame.png"}
+        src={"/images/Rectangle 3992 (1).png"}
         
       />
     

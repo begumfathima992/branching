@@ -7,7 +7,7 @@ export const OurStory = () => {
     <Stack pt={80} spacing={40}>
       <Box>
         <Text ta={{ sm: "center", base: "left" }} fw={700} c={"brand"}>
-          Get Started
+         Our Story
         </Text>
         <Text
           mx={"auto"}
@@ -25,14 +25,7 @@ export const OurStory = () => {
           help Learners and Instuctors Unite for a Smoother Journey
         </Text>
         <Text mt={10} fz={{ sm: 16, base: 13 }} ta={'justify'}>
-            At Drive Test Pros, we envision a world where driving education is
-            accessible, empowering, and fosters a community of safe and
-            confident drivers. We strive to revolutionize the way people learn
-            to drive, making it a seamless and enriching experience for learners
-            and instructors alike. Our vision is to create a global driving
-            education platform that brings learners and skilled instructors
-            together, fostering a culture of responsible driving and lifelong
-            learning
+         Drive Test Pros was born out of a passion for modernizing  the way driving education is delivered.Our team recognised the need for a comprehensive solution that brings instructors and learners closer,making the processof learning to drive more efficient ,interactive,and enjoyable.With a focus on technology,Innovation,and user experience,We embarked on a journey to create an app that transforms the way people learn to drive 
           </Text>
       </Box>
      

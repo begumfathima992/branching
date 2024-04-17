@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+@font-face {
+  font-family: 'Inter';
+    src: url('assets/fonts/Inter-Regular.eot');  
+    src: url('assets/fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Inter-Regular.woff2') format('woff2'),
+        url('assets/fonts/Inter-Regular.woff') format('woff'),
+        url('assets/fonts/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 body {
   font-family: "Roboto", sans-serif;
@@ -28,8 +40,55 @@ a {
   padding-top: 0rem;
 
 }
-
+.mantine-1ryt1ht {
+  font-family: 'Inter';
+}
+span.mantine-Text-root.mantine-pf1qbk {
+  color:yellow;
+}
 
 /* .mantine-14xws4s{
   padding-top: 0px;
 } */
+.mantine-14rjip1{
+  width: 50%;
+  height: 50%;
+}
+.mantine-1jggmkl{
+  justify-content: center;
+}
+.closeIcon{
+ margin-left: 100px;
+}
+.mantine-1vn5afm{
+  font-family: 'Merriweather';
+  font-weight: 600px;
+  font-size: 50px;
+  padding-top: 100px;
+}
+.mantine-l9bf5e {
+  padding-left: 5.875rem;
+padding-top: 2.625rem;
+padding-bottom: 2.625rem;
+
+}
+.mantine-ozvtje{
+  gap:1.5rem;
+}
+/* .mantine-BackgroundImage-root{
+  height: 4rem;
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+} */
+.mantine-BackgroundImage-root {
+  background-position: bottom right;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+.mantine-z65jui {
+  max-width: 1rem;
+}
+

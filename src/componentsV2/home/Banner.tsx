@@ -1,4 +1,4 @@
-import { Box, Center, Text } from "@mantine/core";
+import { Box, Center, Text,BackgroundImage } from "@mantine/core";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAppSelector } from "../../store/hooks";
@@ -10,12 +10,24 @@ export const Banner = () => {
   const navigate = useNavigate();
   const { userDetails } = useAppSelector((state) => state.auth);
   return (
-    <Center
+
+
+
+
+    // <Box maw={200} mx="auto">
+    <BackgroundImage
+    className="mantine-BackgroundImage-root"
+      src={"images/hereos.png"}
+      radius="sm"
+      mx="auto"
+    >
+     <Center
       mih={{ sm: "45svh", base: "40svh" }}
       w={{ md: "900px", base: "100%" }}
       px={{ md: 60, base: 20 }}
       py={"sm"}
       mx={"auto"}
+      sx={{maxWidth: "980px"}}
     >
       <Box ta={"center"}>
         <Text ff={"Merriweather"} fz={{ sm: 25, base: 24 }}>
@@ -52,5 +64,8 @@ export const Banner = () => {
         </Box>
       </Box>
     </Center>
+    </BackgroundImage>
+  // </Box>
+   
   );
 };

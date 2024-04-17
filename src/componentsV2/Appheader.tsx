@@ -53,7 +53,7 @@ function Appheader() {
       >
         <Group noWrap align={"center"} spacing={30}>
           <Link to="/">
-            <BrandLogo height={55} width={55} />
+            <BrandLogo height={65} width={65} />
           </Link>
           <Group display={{ md: "flex", base: "none" }}>
             {links.map((l, index) => (
@@ -86,9 +86,9 @@ function Appheader() {
           {token === null && (
             <Link to="/login">
               <Button
-                fw={400}
-                fz={20}
-                h={45}
+                fw={180}
+                fz={15}
+                h={35}
                 ff={"Merriweather"}
                 bg={"white"}
                 sx={(theme) => ({
@@ -107,7 +107,7 @@ function Appheader() {
 
           {token === null && (
             <Link to="/register">
-              <Button fw={400} fz={20} h={45} ff={"Merriweather"}
+              <Button fw={180} fz={20} h={45} ff={"Merriweather"}
                 sx={(theme) => ({
                   ":hover": {
                     background: theme.white,

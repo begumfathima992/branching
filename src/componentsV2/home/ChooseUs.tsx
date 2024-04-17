@@ -32,7 +32,7 @@ export const ChooseUs = () => {
             order: 1,
           },
         })}
-        src={"/images/homepageFrame.png"}
+        src={"images/getstarted2.png"}
         alt="choose us"
       />
       <Stack
