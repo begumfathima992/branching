@@ -25,8 +25,8 @@ export const AboutImage = () => {
             order: 1,
           },
         })}
-        src={"/images/Rectangle 3992 (1).png"}
-        
+        src={"images/about22.jpg"}
+        alt="choose us"
       />
     
     </SimpleGrid>

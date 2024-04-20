@@ -3,26 +3,27 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Box, Paper } from "@mantine/core";
 import { Image } from "@mantine/core";
 import { Text } from "@mantine/core";
+// import ins1 from "../../Images/in1.png"
 
 export const InstructorCarousel = () => {
   const data = [
     {
-      src: "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
+      src: "images/in1.png",
       price: "$60/hr",
       name: "James William",
     },
     {
-      src: "https://images.unsplash.com/photo-1678286742832-26543bb49959?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80",
+      src: "images/in3.png",
       price: "$80/hr",
       name: "Juan Encalada",
     },
     {
-      src: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
+      src: "images/in1.png",
       price: "$120/hr",
       name: "Charles Etoroma",
     },
     {
-      src: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
+      src: "images/in4.png",
       price: "$50/hr",
       name: "Jurica Koletić",
     },

@@ -9,7 +9,7 @@ const data = [
     direction: "ltr",
   },
   {
-    img: "/images/getstarted2.png",
+    img: "/images/get-contact.png",
     title: "Contact",
     content:
       "Drive Test Pros was born out of a passion for modernizing the way driving education is delivered. Our team recognized the need for a comprehensive solution that brings instructors and learners closer, making the process of learning to drive more efficient, interactive, and enjoyable. With a focus on technology, innovation, and user experience, we embarked on a journey to create an app that transforms the way people learn to drive.",

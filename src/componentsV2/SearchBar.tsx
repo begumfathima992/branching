@@ -94,7 +94,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
             <BiCurrentLocation />
           </ThemeIcon>
           <Text display={{ sm: "block", base: "none" }}>
-          Detect Your Location 
+          Detect Current Location 
           </Text>
         </Button>
       </Grid.Col>
@@ -140,10 +140,11 @@ const SearchBar: React.FC<SearchBarProps> = ({
           ml="auto"
           display={"block"}
           h={40}
+          className="searcColor"
           radius={"xl"}
           {...btnProps}
         >
-          Search
+          SEARCH
         </Button>
       </Grid.Col>
     </Grid>

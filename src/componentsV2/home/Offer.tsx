@@ -45,7 +45,7 @@ export const Offer = () => {
       <Text
         mt={10}
         w={{ md: "932px", base: "100%" }}
-        fz={{ sm: 38, xs: 28, base: 24 }}
+        fz={{ sm: 34, xs: 24, base: 18 }}
         ff={"Merriweather"}
       >
         What We Offer to
@@ -53,7 +53,13 @@ export const Offer = () => {
           {" "}
           Enhance Your Driving{" "}
         </Text>
-        Education Experience
+        <Text
+        mt={10}
+        w={{ md: "932px", base: "100%" }}
+        fz={{sm: 34, xs: 24, base: 18 }}
+        ff={"Merriweather"}
+      >Education Experience</Text>
+        
       </Text>
       <SimpleGrid
         breakpoints={[

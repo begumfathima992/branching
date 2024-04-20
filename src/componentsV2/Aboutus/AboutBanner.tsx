@@ -7,9 +7,9 @@ export const AboutBanner = () => {
       <Text fw={700} fz={18} c={"brand"}>
         About Us
       </Text>
-      <Text ff={"Merriweather"} fz={{ sm: 38, xs: 28, base: 24 }}>
+      <Text ff={"Merriweather"} fz={{ sm: 40, xs: 30, base: 26 }}>
         Discover the
-        <Text ff={"Merriweather"} component="span" fw={700}>
+        <Text ff={"Merriweather"} component="span" fw={700} className="abt-future">
           {" "}
           Future{" "}
         </Text>
@@ -36,7 +36,7 @@ export const AboutBanner = () => {
       >
         
          
-          <Text mt={10} fz={{ sm: 16, base: 13 }} ta={'justify'}>
+          <Text mt={10} fz={{ sm: 18, base: 15}} ta={'justify'}>
           Welcome to Drive Test Pros, where driving instructors and learners come together to enhance Learner's 
             driving test
           </Text>

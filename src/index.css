@@ -43,9 +43,9 @@ a {
 .mantine-1ryt1ht {
   font-family: 'Inter';
 }
-span.mantine-Text-root.mantine-pf1qbk {
-  color:yellow;
-}
+/* span.mantine-Text-root.mantine-pf1qbk {
+  font-size: ;
+} */
 
 /* .mantine-14xws4s{
   padding-top: 0px;
@@ -84,11 +84,36 @@ padding-bottom: 2.625rem;
 } */
 .mantine-BackgroundImage-root {
   background-position: bottom right;
-  background-size: 50%;
+  background-size: 75%;
   background-repeat: no-repeat;
-  height: 550px;
+  height: 730px;
 }
 .mantine-z65jui {
   max-width: 1rem;
+}
+.mantine-i8injl{
+  font-size: 13px;
+}
+.mantine-mvg7ns{
+  font-weight: 400;
+  font-size: 13px;
+}
+.mantine-1lxroks{
+  font-weight: 400;
+  font-size: 13px;
+
+}
+.mantine-1y6z0sp {
+  height: 47px;
+  width: 100px;
+}
+.searcColor{
+  color: black;
+}
+.mantine-3v3yf2 {
+  width: 683px;
+}
+.abt-future{
+  color: #EAB720;
 }
 

@@ -9,19 +9,19 @@ import { Copy } from '../componentsV2/Copy'
 
 const links = [
   {
-    label: "Home",
+    label: "HOME",
     href: "/",
   },
   {
-    label: "About",
+    label: "ABOUT",
     href: "/aboutus",
   },
   {
-    label: "Pricing",
+    label: "PRICING",
     href: "/pricing",
   },
   {
-    label: "Contact",
+    label: "CONTACT",
     href: "/contactus",
   },
 ];
@@ -86,7 +86,7 @@ function Appheader() {
           {token === null && (
             <Link to="/login">
               <Button
-                fw={180}
+                fw={200}
                 fz={15}
                 h={35}
                 ff={"Merriweather"}
@@ -107,7 +107,7 @@ function Appheader() {
 
           {token === null && (
             <Link to="/register">
-              <Button fw={180} fz={20} h={45} ff={"Merriweather"}
+              <Button fw={200} fz={15} h={35} ff={"Merriweather"}
                 sx={(theme) => ({
                   ":hover": {
                     background: theme.white,

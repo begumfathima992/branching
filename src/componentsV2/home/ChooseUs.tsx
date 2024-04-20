@@ -6,6 +6,11 @@ const data = [
       "Our app is designed with you in mind. We prioritize user feedback and continuously improve the app to meet your evolving needs.",
   },
   {
+    title: "Qualified Instructors",
+    content:
+      "We partner with experienced and certified driving instructors who are dedicated to helping learners become confident and responsible drivers.",
+  },
+  {
     title: "Innovation",
     content:
       "We're not just an app; we're a driving education experience that harnesses the power of technology to revolutionize the way we learn to drive.",
@@ -46,7 +51,7 @@ export const ChooseUs = () => {
           <Text ff={"Merriweather"} c={"brand"} fw={700}>
             Why Choose Us
           </Text>
-          <Text ff={"Merriweather"} fz={{ sm: 38, xs: 28, base: 24 }}>
+          <Text ff={"Merriweather"} fz={{ sm: 34, xs: 24, base: 18  }}>
             Why Choose Us for Your Driving Education?{" "}
           </Text>
         </Box>

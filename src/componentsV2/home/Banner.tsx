@@ -17,7 +17,7 @@ export const Banner = () => {
     // <Box maw={200} mx="auto">
     <BackgroundImage
     className="mantine-BackgroundImage-root"
-      src={"images/hereos.png"}
+      src={"images/background-img.png"}
       radius="sm"
       mx="auto"
     >
@@ -35,7 +35,10 @@ export const Banner = () => {
         </Text>
         <Text fz={{ sm: 14, base: 12 }} c="gray.7">
           Drive Test Pros was born out of a passion for modernizing the way
-          driving education is delivered. Our app allows learners and
+          driving education is delivered.
+        </Text>
+        <Text fz={{ sm: 14, base: 12 }} c="gray.7">
+          Our app allows learners and
           instructors to track progress, set goals, and celebrate achievements
           along the way.
         </Text>
