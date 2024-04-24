@@ -6,6 +6,7 @@ import { OurMission } from "../componentsV2/Aboutus/OurMission";
 import { OurStory } from "../componentsV2/Aboutus/OurStory";
 import { GetStartedAbout} from "../componentsV2/Aboutus/GetStartedAbout";
 import { AboutCard} from "../componentsV2/Aboutus/AboutCard";
+import { AboutImage2 } from "../componentsV2/Aboutus/AboutImage2";
 // import { ChooseUs } from "../componentsV2/home/ChooseUs";
 import { Contactus } from "../componentsV2/home/Contactus";
 import { GetStarted } from "../componentsV2/home/GetStarted";
@@ -23,10 +24,16 @@ const AboutPage = () => {
         <AboutImage/>
         <OurMission/>
         <AboutCard/>
-        <OurStory/>
-      
+     
       </Container>
+      <OurStory/>
+      <Container py={80} size={1250}>
+      <AboutImage2/>
+     
+      </Container>
+      
       <GetStartedAbout />
+     
     
     </>
   );

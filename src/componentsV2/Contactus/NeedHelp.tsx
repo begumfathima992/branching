@@ -18,9 +18,11 @@ export const NeedHelp = () => {
     <SimpleGrid
       breakpoints={[{ maxWidth: "md", cols: 1 }]}
       spacing={40}
-      sx={{ alignItems: "center" }}
+      // sx={{ alignItems: "center" }}
       py={80}
       cols={2}
+      pl={100}
+
     >
       {/* <Image
         sx={(theme) => ({
@@ -34,14 +36,7 @@ export const NeedHelp = () => {
         src={img1}
         alt="choose us"
       /> */}
-      <Image
-  radius="md"
-  h={200}
-  src={"images/img1.jpg"}
- // Provide the correct path to the image
-
-  alt="Image Description" // Add alt attribute for accessibility
-/>
+     
       <Stack
         sx={(theme) => ({
           [theme.fn.smallerThan("md")]: {
@@ -51,9 +46,9 @@ export const NeedHelp = () => {
       >
         <Box>
           <Text ff={"Merriweather"} c={"brand"} fw={700}>
-            NeedHelp
+            Need Help
           </Text>
-          <Text ff={"Merriweather"} fz={{ sm: 38, xs: 28, base: 24 }}>
+          <Text ff={"Merriweather"} fz={{ sm: 25, base: 24 }}>
             Connect with our team to learn more{" "}
           </Text>
         </Box>
@@ -66,6 +61,14 @@ export const NeedHelp = () => {
           </Box>
         ))}
       </Stack>
+      <Image
+     
+
+  src={"images/contact_us1.jpg"}
+ // Provide the correct path to the image
+
+  alt="Image Description" // Add alt attribute for accessibility
+/>
     </SimpleGrid>
   );
 };

@@ -86,7 +86,7 @@ padding-bottom: 2.625rem;
   background-position: bottom right;
   background-size: 75%;
   background-repeat: no-repeat;
-  height: 730px;
+  height: 561px;
 }
 .mantine-z65jui {
   max-width: 1rem;
@@ -116,4 +116,33 @@ padding-bottom: 2.625rem;
 .abt-future{
   color: #EAB720;
 }
+.abt_story{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 78%;
+}
+.mantine-1vn5afm {
+  width: 92%;
+
+}
+.mantine-1vn5afm {
+  font-family: 'Merriweather';
+  font-weight: 600px;
+  font-size: 50px;
+  padding-top: 0px;
+}
+.mantine-1qdyxyy {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 64.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.mantine-1vn5afm {
+  line-height: 1.2;
+}
+
 

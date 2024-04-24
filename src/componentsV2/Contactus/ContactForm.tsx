@@ -44,11 +44,11 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <Title order={2} size="h1" style={{ fontFamily: 'Greycliff CF, var(--mantine-font-family)' }} fw={900} ta="center">
+      <Title order={2} size="h1"  fw={600} ta="center" ff={"Merriweather"} fz={{ sm: 25, base: 24 }}>
         Contact Us
       </Title>
 
-      <SimpleGrid breakpoints={[{ maxWidth: 'md', cols: 1 }]} mt="xl">
+      <SimpleGrid breakpoints={[{ minWidth:"xs", cols: 1 }]} mt="xl">
         <TextInput label="Name" name="name" {...form.getInputProps('name')} />
         <TextInput label="Email" name="email" {...form.getInputProps('email')} />
         <TextInput label="Phone" type="tel" name="phone" {...form.getInputProps('phone')} />
