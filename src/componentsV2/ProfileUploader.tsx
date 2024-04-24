@@ -22,7 +22,7 @@ export const ProfileUpload = ({
   handleImageUpload: (img: File | null) => void;
 } & Partial<GroupProps>) => {
   return (
-    <Group align="flex-end" mt={25} {...props}>
+    <Group mantine-1jggmkl mt={25} {...props}>
       <Avatar.Group pos={"relative"}>
         <Avatar
           styles={(theme) => ({

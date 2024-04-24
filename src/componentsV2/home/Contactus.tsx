@@ -40,7 +40,7 @@ export const Contactus = () => {
         size={1250}
         sx={{
           borderRadius: 30,
-          background: "url(/images/contactusframe.jpg)",
+          background: "url(/images/about22.jpg)",
           padding: "50px",
           backgroundPosition: "center",
         }}

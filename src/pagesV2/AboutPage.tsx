@@ -24,9 +24,9 @@ const AboutPage = () => {
         <OurMission/>
         <AboutCard/>
         <OurStory/>
-        <GetStartedAbout />
+      
       </Container>
-     
+      <GetStartedAbout />
     
     </>
   );
