@@ -90,7 +90,9 @@ const Footer = () => {
           },
         })}
       >
-        <p>products</p>
+        <Text  fw={600}>
+            products
+          </Text>
         {FooterLinks.map((l) => (
           <Link to={l.href} key={l.href}>
             <Text

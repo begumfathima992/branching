@@ -19,9 +19,9 @@ export const Mail = () => {
             <IoMdMail  />
           </Box>
           <Stack spacing={1}>
-            <Text fw={700} ff={"Merriweather"}>Hello World</Text>
+            <Text fw={700} ff={"Merriweather"}>Email</Text>
             <Text ff={"Merriweather"}>Hello Worldlllll</Text>
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
+            <a href="mailto:your.email@example.com" >your.email@example.com</a>
           </Stack>
         </SimpleGrid>
       </Box>

@@ -44,7 +44,7 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <Title order={2} size="h1"  fw={600} ta="center" ff={"Merriweather"} fz={{ sm: 25, base: 24 }}>
+      <Title order={2} size="h1"  fw={600} ta="center" ff={"Merriweather"} fz={{ sm: 25, base: 24 }} pt={20}>
         Contact Us
       </Title>
 
